@@ -1,0 +1,80 @@
+* {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.svg-back {
+    background-image: url(image.svg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position-y: 101%;
+    background-position-x: 10%;
+}
+
+.svg-back-reverse {
+    background-image: url(image2.svg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position-x: 10%;
+}
+
+.svg-back-reverse2 {
+    background-image: url(image3.svg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position-x: 10%;
+}
+
+.primary-bg {
+    background-color: #101e3a;
+}
+
+.secondary-bg {
+    background-color: #6f2232;
+}
+
+.accent-bg {
+    background-color: #acbdd3;
+}
+
+.transparent-bg {
+    background-color: transparent;
+}
+
+.footer-bg {
+    background-color: black;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.card-hv:hover .card-hover {
+    opacity: 0.7;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    background-color: transparent !important;
+}
+
+.dropdown-menu a:hover {
+    color: #f9f9f9 !important;
+    background-color: transparent !important;
+}
+
+.text-indent {
+    text-indent: 50px;
+}
+
+.shadowa {
+    box-shadow: 0px 10px 18px 0px rgb(24, 24, 24);
+}
+
+.linka {
+    color: rgb(93, 182, 255) !important;
+}
